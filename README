@@ -1,7 +1,0 @@
-
---
-node server.js -> npm run dev
---
---
-npm run json:server
---
