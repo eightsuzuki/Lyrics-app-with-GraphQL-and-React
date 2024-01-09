@@ -16,3 +16,5 @@ mongodbを使用
 const MONGO_URI = 'mongodb+srv://suzukieight8:8qw6MSxccim9vqqC@cluster0.wsn0kwr.mongodb.net/?retryWrites=true&w=majority';
 
 を変更。
+
+Open `localhost:4000/qraphql`
