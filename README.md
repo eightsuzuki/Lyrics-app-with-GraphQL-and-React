@@ -1,9 +1,10 @@
-# Reactを使用したGraphQLのアプリ
+# appGraphQL
+## Reactを使用したGraphQLのアプリ
 
 GraphQLを使用してバックエンドサーバーを構築し、Reactを使用してフロントエンドアプリケーション。バックエンドの認証、Apolloデータの管理、Reactとの統合、そして応答性の高いアプリケーションの構築の実践。
 
 
-## セットアップ
+### セットアップ
 
 1. プロジェクトのルートで以下のコマンドを実行して依存関係をインストールします。
 
@@ -18,3 +19,6 @@ GraphQLを使用してバックエンドサーバーを構築し、Reactを使�
     ```javascript
     const MONGO_URI = 'your-mongodb-connection-uri';
     ```
+
+# miniGraphQL
+GraphQLの使用方法を確認
