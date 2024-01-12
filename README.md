@@ -1,20 +1,20 @@
 # Reactを使用したGraphQLのアプリ
-# GraphQLを実際に実装
 
-# Lyrical-GraphQL
+GraphQLを使用してバックエンドサーバーを構築し、Reactを使用してフロントエンドアプリケーション。バックエンドの認証、Apolloデータの管理、Reactとの統合、そして応答性の高いアプリケーションの構築の実践。
 
-Starter project from a GraphQL course on Udemy.com
 
-### Setup
+## セットアップ
 
-- Run `npm install --legacy-peer-deps` in the root of the project to install dependencies
-- Access the application at `localhost:4000` in your browser
+1. プロジェクトのルートで以下のコマンドを実行して依存関係をインストールします。
 
-mongodbを使用
-./server/server.jsでmongodbの接続情報を入力
+    ```bash
+    $ npm install --legacy-peer-deps
+    ```
 
-const MONGO_URI = 'mongodb+srv://suzukieight8:8qw6MSxccim9vqqC@cluster0.wsn0kwr.mongodb.net/?retryWrites=true&w=majority';
+2. ブラウザで `localhost:4000` にアクセスしてアプリケーションにアクセスします。
 
-を変更。
+3. MongoDBを使用する場合は、`./server/server.js`内の接続情報を自分のMongoDB情報に変更してください。
 
-Open `localhost:4000/qraphql`
+    ```javascript
+    const MONGO_URI = 'your-mongodb-connection-uri';
+    ```
