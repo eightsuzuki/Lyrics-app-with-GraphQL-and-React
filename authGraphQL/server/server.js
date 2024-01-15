@@ -16,6 +16,9 @@ const MONGO_URI = 'mongodb+srv://suzukieight8:JtBtHBiUtiDtmgn6@cluster0.wsn0kwr.
 if (!MONGO_URI) {
   throw new Error('You must provide a Mongo Atlas URI');
 }
+if (MONGO_URI) {
+  console.log('You connect a Mongo Atlas URI');
+}
 
 // Mongoose's built in promise library is deprecated, replace it with ES2015 Promise
 mongoose.Promise = global.Promise;
