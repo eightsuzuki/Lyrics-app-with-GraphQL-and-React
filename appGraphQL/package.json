@@ -1,11 +1,11 @@
 {
-  "name": "lyrical",
+  "name": "graphql-with-react",
   "version": "1.0.0",
-  "description": "Starter point for a graphQL course",
+  "description": "graphQL App with React",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StephenGrider/Lyrical-GraphQL"
+    "url": "https://github.com/eightsuzuki/GraphQL-with-React"
   },
   "scripts": {
     "dev": "nodemon index.js --ignore client"
