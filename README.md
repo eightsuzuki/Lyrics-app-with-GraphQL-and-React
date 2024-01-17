@@ -31,12 +31,6 @@ GraphQLを使用してバックエンドサーバーを構築し、Reactを使�
     $ npm run dev
     ```
 
-### Open
-```
-http://localhost:4000/graphql
-http://localhost:4000/#/songs
-```
-
 # authGraphQL
 ## Reactを使用したGraphQLを使ったauthアプリ
 
@@ -69,15 +63,22 @@ appGraphQL と同様な構造
     ```bash
     $ npm run dev
     ```
-    
-### Open
-```
-http://localhost:4000/graphql
-http://localhost:4000/
-```
 
 # miniGraphQL
-GraphQLの使用方法を確認
+GraohiqlでのGraphQLの使用方法を確認
+
+1. プロジェクトのルートで以下のコマンドを実行して依存関係をインストールします。
+
+    ```bash
+    $ npm install --legacy-peer-deps
+    ```
+2. ブラウザで `localhost:4000/graphql` にアクセスしてアプリケーションにアクセスします。
+
+3. 実行
+    ```bash
+    $ npm run dev
+    $ npm run json:server
+    ```
 
 ### Open
 ```
