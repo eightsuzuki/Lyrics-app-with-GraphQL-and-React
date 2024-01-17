@@ -42,10 +42,10 @@ http://localhost:4000/#/songs
 
 GraphQLを使用してバックエンドサーバーを構築し、ReactとGraphQLを使ったauth機能の構築。
 
-<img src="./images/AuthGraphQL.png" width="400">
+<img src="./images/authGraphQL.png" width="400">
 
 ### GraphQL schema
-<img src="./images/AuthGraphQL_Schema.png" width="700">
+<img src="./images/authGraphQL_Schema.png" width="700">
 
 ### Application Architecture
 appGraphQL と同様な構造
