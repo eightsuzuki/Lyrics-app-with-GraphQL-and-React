@@ -1,5 +1,4 @@
-# appGraphQL
-## Reactを使用したGraphQLのアプリ
+# GraphQLとReactを使用した歌詞アプリ
 
 GraphQLを使用してバックエンドサーバーを構築し、Reactを使用してフロントエンドアプリケーション。バックエンドの認証、Apolloデータの管理、Reactとの統合、そして応答性の高いアプリケーションの構築の実践。音楽リスト一覧表示ページを「/」に、詳細ページを「/songs/{songId}」に、音楽作成ページを「/songs/new」に割り当てるアプリケーション。
 
@@ -32,6 +31,8 @@ GraphQLを使用してバックエンドサーバーを構築し、Reactを使�
     ```
 
 # authGraphQL
+まだ未実装ですが歌詞アプリに認証機能を追加するために、GraphQLでの認証を試しました。
+
 ## Reactを使用したGraphQLを使ったauthアプリ
 
 GraphQLを使用してバックエンドサーバーを構築し、ReactとGraphQLを使ったauth機能の構築。
